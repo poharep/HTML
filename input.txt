@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Enter your name: 
+<input type="text" id="nameInput">
+
+<button onclick="showName()">Submit</button>
+
+<p id="result"></p>
+
+<script>
+function showName() {
+  let name = document.getElementById("nameInput").value;
+  document.getElementById("result").innerHTML = "Hello " + name + "!";
+}
+</script>
+
+</body>
+</html>
